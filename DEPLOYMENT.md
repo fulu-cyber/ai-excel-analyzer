@@ -39,7 +39,7 @@ git add .
 git commit -m "准备部署到 Streamlit Cloud"
 
 # 添加远程仓库
-git remote add origin https://github.com/YOUR_USERNAME/ai-excel-analyzer.git
+git remote add origin https://github.com/fulu-cyber/ai-excel-analyzer.git
 
 # 推送到 GitHub
 git push -u origin main
@@ -70,7 +70,7 @@ git push -u origin main
 ```toml
 DEEPSEEK_API_KEY = "sk-your-api-key-here"
 DEEPSEEK_BASE_URL = "https://api.deepseek.com"
-DEEPSEEK_MODEL = "deepseek-chat"
+DEEPSEEK_MODEL = "deepseek-v4-flash"
 ```
 
 7. 点击 **Save** 保存
