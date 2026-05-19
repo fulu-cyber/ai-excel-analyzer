@@ -1,0 +1,29 @@
+# AI Excel Analyzer 依赖包
+# ==========================
+
+# 数据处理
+pandas>=2.0.0          # 数据分析和处理库
+openpyxl>=3.1.0        # 读写Excel文件(.xlsx格式)
+xlrd>=2.0.0            # 读取Excel文件(.xls格式)
+
+# Web界面
+streamlit>=1.28.0      # 快速构建Web应用界面
+
+# 模板引擎
+Jinja2>=3.1.0          # 模板引擎，用于生成报告
+
+# HTTP请求
+requests>=2.31.0       # HTTP请求库，用于API调用
+
+# OpenAI SDK (兼容 DeepSeek API)
+openai>=1.12.0        # OpenAI SDK，支持 DeepSeek API
+
+# 环境变量管理
+python-dotenv>=1.0.0   # 从.env文件加载环境变量
+
+# 数据可视化（可选）
+# matplotlib>=3.7.0    # 绑定图表生成
+# plotly>=5.18.0       # 交互式图表
+
+# 测试（开发环境）
+pytest>=7.4.0          # 测试框架
