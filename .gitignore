@@ -69,3 +69,6 @@ temp_fix.txt
 # Project development notes (internal use only)
 项目开发指导.md
 项目开发提示词.md
+
+# Deployment guide (local only)
+DEPLOYMENT.md
